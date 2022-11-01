@@ -1,3 +1,9 @@
+hr {
+  border: 1px solid #4c566a;
+  border-radius: 1.5px;
+  background-color: #4c566a;
+}
+
 header {
 	display: flex;
 	flex-wrap: wrap;

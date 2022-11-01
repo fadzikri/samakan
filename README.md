@@ -1,3 +1,3 @@
 # Masakan
 
-Halaman rekomendasi dan resep makanan.
+Halaman serderhana tentang rekomendasi dan resep makanan.

@@ -1,0 +1,65 @@
+header {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+
+header nav {
+	display: inherit;
+}
+
+header nav * {
+	margin-left: 35px;
+}
+
+header a, header a:visited, header a:hover, header a:active {
+	color: #4a4a4a;
+	text-decoration: none;
+}
+
+header p {
+	margin-top: 0.5em;
+	flex-basis: 100%;
+}
+
+textarea {
+	resize: vertical;
+    min-height: 85px;
+    max-height: 150px;
+	font-family: Inconsolata, "Open Sans", sans-serif;
+}
+
+senarai-rencana, tautan-cari {
+	display: flex;
+	margin-top: 0;
+	margin-bottom: 2.5rem;
+	background-color: #f1f1f1;
+	justify-content: space-between;
+	font-family: Inconsolata, sans-serif;
+}
+
+teks-rencana, senarai-cari  {
+	padding: 1em;
+}
+
+@media screen and (max-width: 600px) {
+	header {
+		margin-top: -1em;
+		justify-content: center;
+	}
+
+	header nav {
+		flex-basis: 100%;
+		justify-content: space-between;
+	}
+
+	header nav * {
+		margin-left: 0;
+	}
+
+	header p {
+		text-align: center;
+		margin-bottom: 1em;
+	}
+}

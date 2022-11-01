@@ -1,0 +1,42 @@
+.swal2-popup {
+	font-size: 1.5rem !important;
+}
+
+.swal-ok {
+	width: 85px;
+	font-size: 1.05em;
+}
+
+#swal2-title {
+	margin: 20px 0 0;
+}
+
+.popup-detail {
+	margin: 0 auto;
+	max-width: 700px;
+	text-align: left;
+}
+
+.popup-detail div {
+	height: 20em;
+	display: flex;
+	font-size: 1em;
+}
+
+.popup-detail div p {
+	margin-bottom: 0;
+}
+
+.popup-detail img {
+	margin-bottom: 0;
+}
+
+@media screen and (max-width: 600px) {
+	.swal2-popup {
+		font-size: 1.15rem !important;
+	}
+	
+	.popup-detail {
+		font-size: 1.15em;
+	}
+}

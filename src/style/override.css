@@ -1,0 +1,69 @@
+html, 
+h1, h2, h3, h4, h5, h6,
+button, input, optgroup, select, textarea {
+	font-family: "Open Sans", Inconsolata, sans-serif;
+}
+
+body {
+	max-width: 50em;
+}
+
+textarea, select, input {
+	padding: 1em;
+}
+
+button, input, optgroup, select, textarea {
+	margin: 0;
+	font-size: 93%;
+	line-height: 1.15;
+	margin-bottom: 2.5rem;
+}
+
+button:focus:enabled, .button:focus:enabled {
+	border-color: #1d7484;
+	background-color: #1d7484;
+}
+
+button:focus:enabled:hover {
+	border-color: #982c61;
+	background-color: #982c61;
+	transition-duration: 0.5s;
+}
+
+button:focus:enabled:active {
+	border-color: #581b39;
+	background-color: #581b39;
+}
+
+ul {
+	padding-left: 1.8em;
+}
+
+pre, code, kbd, samp {
+	font-family: Inconsolata, monospace, sans-serif;
+}
+
+.btn {
+	display: inline-block;
+	padding: 5px 10px;
+	text-align: center;
+ 	text-decoration: none;
+  	white-space: nowrap;
+  	background-color: #1d7484;
+  	color: #f9f9f9;
+  	border-radius: 1px;
+  	border: 1px solid #1d7484;
+  	cursor: pointer;
+  	box-sizing: border-box;
+}
+
+.btn:hover {
+	border-color: #982c61;
+	background-color: #982c61;
+	transition-duration: 0.5s;
+}
+
+.btn:active {
+	border-color: #581b39;
+	background-color: #581b39;
+}

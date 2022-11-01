@@ -1,0 +1,81 @@
+.rekomendasi-masakan {
+    display: flex;
+	flex-direction: column;
+}
+
+.kolom-masakan {
+	display: inherit;
+	flex-direction: row;
+}
+
+.kolom-masakan-gambar {
+    width: 1em;
+    flex-grow: 1;
+    margin-right: 10px;
+    border-radius: 1px;
+    border: 2.5px solid #e9e9e9;
+}
+
+.kolom-masakan-gambar:last-child {
+    margin-right: 0;
+}
+
+.kolom-masakan-kosong, .popup-detail div {
+	height: 7em;
+	color: #4a4a4a;
+	display: inherit;
+	font-size: 0.85em;
+	align-items: center;
+	margin-bottom: 2.5rem;
+	justify-content: center;
+	background-color: #f1f1f1;
+	font-family: Inconsolata, sans-serif;
+}
+
+.kolom-masakan-kosong p {
+	margin-bottom: 0;
+}
+
+.rencana-simpan {
+    display: flex;
+	justify-content: right;
+}
+
+.pencarian {
+	display: flex;
+}
+
+.pencarian input[type=search] {
+	width: 100%;
+	margin-bottom: 0;
+	font-family: Inconsolata, sans-serif;
+}
+
+.pencarian button {
+	width: 80px;
+	margin-bottom: 0;
+}
+
+@media screen and (max-width: 600px) {
+	.kolom-masakan-gambar {
+		display: none;
+	}
+
+	.rencana-simpan button {
+		width: 100%;
+	}
+	
+	.pencarian {
+		display: initial;
+	}
+
+	.pencarian input[type=search] {
+		margin-bottom: 10px;
+	}
+	
+	.pencarian button {
+		width: 100%;
+		margin-top: 2.5rem;
+		margin-bottom: 2.5rem;
+	}
+}

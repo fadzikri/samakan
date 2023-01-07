@@ -47,7 +47,7 @@ if (cariBtn) {
       })
       .catch((res) => {
         if (res.code == "ERR_NETWORK") {
-          return helper.notifikasi("Galat", "Periksa sambungan internet!");
+          return helper.notifikasi("Masalah", "Seperti ada masalah pada API");
         }
       });
   });
@@ -62,7 +62,7 @@ const setResepId = () => {
           showResep(res.data.results);
         })
         .catch(() => {
-          helper.notifikasi("Masalah", "Seperti ada masalah pada sisi server");
+          helper.notifikasi("Masalah", "Seperti ada masalah pada API");
         });
     });
   });

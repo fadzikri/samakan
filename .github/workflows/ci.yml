@@ -20,6 +20,8 @@ jobs:
           npm install
       - name: Build
         run: |
+          rm -r dist
+          date >> last_update.txt
           npm run build
           git config user.name fadzikri
           git config user.email 109416385+fadzikri@users.noreply.github.com

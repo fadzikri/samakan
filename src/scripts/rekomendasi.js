@@ -39,7 +39,7 @@ const rekomendasiMasakan = () => {
     })
     .catch((response) => {
       if (response.code == "ERR_NETWORK") {
-        return helper.notifikasi("Galat", "Periksa sambungan internet!");
+        return helper.notifikasi("Masalah", "Sepertinya ada masalah pada API");
       }
     });
 };
